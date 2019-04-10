@@ -18,7 +18,7 @@ public class GamePanel extends JPanel {
 
     @Override
     public void paint(Graphics g) {
-        g.setColor(Color.BLACK);
+        g.setColor(Color.WHITE);
         g.fillRect(0, 0, Settings.GAME_WIDTH, Settings.GAME_HEIGHT);
 
         for (int i = 0; i < GameObject.objects.size(); i++) {
